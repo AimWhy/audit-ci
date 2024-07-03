@@ -1,0 +1,3 @@
+test/yarn-*.cjs
+dist
+coverage

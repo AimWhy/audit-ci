@@ -1,0 +1,11 @@
+{
+  "extends": "@tsconfig/node18/tsconfig.json",
+  "compilerOptions": {
+    "allowJs": true,
+    "noEmit": true,
+    "importHelpers": true,
+    // Only needed for tests, disabled in build
+    "resolveJsonModule": true
+  },
+  "include": ["lib", "test"]
+}
